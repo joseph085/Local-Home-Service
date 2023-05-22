@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    block-size: 100px;
+    inline-size: 100%;
+    margin-inline-end: auto;
+    display: flex;
+
+
+
+}
+.homeservice{
+    display: flex;
+    justify-content: left;
+    justify-content: bottom;
+}
+.social-media ul, .social-{
+    display: flex;
+    list-style: none;
+    letter-spacing: 5px;
+    padding-inline-end: 30px;
+    gap: 20px;
+}
+
+.social-media li {
+    background-color: yellowgreen;
+    cursor: pointer;
+    margin-inline-end: 15%;
+    align-items: center;
+    justify-content: center;
+}
+.header-page-link button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(29, 172, 167); 
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+    margin-left: 180%;
+    
+
+}
+footer {
+    background-color: #333333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact,
+.map {
+    flex-basis: 50%;
+}
+.map img {
+    inline-size: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {      
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer p {
+        font-size: 14px;
+    }
+    footer p span {
+        font-size: 12px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+    footer p span {
+        font-size: 10px;
+    }
+    footer p span {
+        font-size: 10px;
+    }
+    
+/* header {
+    background-color: #e71010;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+}
+
+.header-button,
+.header-buttons a {
+    margin-inline-start: 10px;
+}
+
+.main {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.photo img {
+    inline-size: 200px;
+    block-size: 200px;
+}
+
+.text {
+    margin-inline-start: 20px;
+}
+
+
+
+
+
